@@ -1,7 +1,7 @@
 provider "aws" {
   region = "eu-west-2" # London region
-}
 
+  }
   
   terraform {
   backend "s3" {
